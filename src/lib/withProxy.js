@@ -5,6 +5,6 @@ const getCDN = (manga) => manga ? CRUNCHYROLL_MANGA_CDN : CRUNCHYROLL_CDN
 
 export default (url, manga = false) => url.replace(
   getCDN(manga),
-  `${process.env.NODE_ENV !== 'production' ? 'https://nani.ninja' : ''}/proxy/${manga ? 'manga/' : ''}image/`
+  `${process.env.NODE_ENV !== 'production' ? 'https://naniviro.netlify.app/' : ''}/proxy/${manga ? 'manga/' : ''}image/`
 )
 export const replaceHttps = (url, manga = false) => url.replace(getCDN(manga), getCDN(manga).replace('http://', 'https://'))

@@ -1,9 +1,9 @@
 {
-  "name": "nanivilo-ui",
-  "version": "1.0.0",
-  "description": "nanivilo ui",
+  "name": "naniviro-ui",
+  "version": "1.2.0",
+  "description": "naniviro ui",
   "main": "index.js",
-  "repository": "https://github.com/destruc7i0n/nani-ui.git",
+  "repository": "https://github.com/Ash1569/NaniViro.git",
   "homepage": "",
   "author": {
     "name": "Matthew Zscherpel",
@@ -25,8 +25,8 @@
     "electron-builder": "^19.56.0"
   },
   "build": {
-    "productName": "nanivilo",
-    "appId": "nanivilo",
+    "productName": "naniviro",
+    "appId": "naniviro",
     "publish": {
       "provider": "github"
     },

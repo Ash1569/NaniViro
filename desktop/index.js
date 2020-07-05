@@ -21,7 +21,7 @@ rpc.login(RPCClientID).catch(console.error)
 function createWindow () {
   win = new BrowserWindow({
     icon: path.join(__dirname, 'build', 'icon.ico'),
-    title: 'Nani Vilo',
+    title: 'naniviro',
     show: false,
     backgroundColor: '#eee',
     webPreferences: {
@@ -38,7 +38,7 @@ function createWindow () {
   })
 
   // load into view
-  win.loadURL('http://localhost:3000/')
+  win.loadURL('https://naniviro.netlify.app/')
 
   let lastRPCUpdate = ''
   win.on('page-title-updated', (event, title) => {

@@ -191,12 +191,12 @@ class Controls extends Component {
             ? (
               <Toast className='bg-white'>
                 <ToastHeader toggle={this.toggleNewPlayerInfo}>
-                  New Video Player!
+                  Notice!
                 </ToastHeader>
                 <ToastBody className='text-body'>
-                  Welcome to the new custom video player! It was built to better accommodate the design and needs of this website.<br />
-                  Do you have feedback or requests of features no-longer available?
-                  You can ping me on discord <a target='_blank' rel='noopener noreferrer' href='discord.gg/sweetheart'>@Ashie#3877</a>.
+                  The naniviro player was built to better accommodate the design and needs of this website.<br />
+                  Do you have feedback or requests?
+                  You can contact me on <a target='_blank' rel='noopener noreferrer' href='discord.gg/sweetheart'>discord @Ashie#3877</a>.
                 </ToastBody>
               </Toast>
             )
