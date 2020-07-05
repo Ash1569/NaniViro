@@ -37,7 +37,7 @@ class Header extends Component {
     const { collapsed } = this.state
     const { dispatch, location, Auth } = this.props
     return (
-      <nav className='mb-4 navbar navbar-expand-md fixed-top navbar-dark bg-dark'>
+      <nav className='mb-4 navbar navbar-expand-md fixed-top navbar-dark bg-dark' style="-webkit-app-region: drag">
         <div className='container'>
           <NavbarBrand tag={Link} to='/'>
             <div className='logo d-md-none d-lg-inline-block' style={{ width: '2rem', height: '2rem' }} />
@@ -46,7 +46,7 @@ class Header extends Component {
           </NavbarBrand>
           <NavbarToggler onClick={() => this.setState({ collapsed: !collapsed })} />
           <Collapse isOpen={collapsed} navbar>
-            <Nav className='mr-auto' navbar>
+            <Nav className='mr-auto' style="-webkit-app-region: no-drag" navbar>
               <NavItem>
                 <NavLink disabled={Auth.guest} tag={Link} to={'/queue'}>
                   <FontAwesomeIcon icon='list' className='d-md-none d-lg-inline-block' />
@@ -105,7 +105,7 @@ class Header extends Component {
                 </NavLink>
               </NavItem>
             </Nav>
-            <Nav className='ml-auto' navbar>
+            <Nav className='ml-auto' style="-webkit-app-region: no-drag" navbar>
               <NavItem className='dropdown'>
                 <SearchInput />
               </NavItem>
