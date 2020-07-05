@@ -8,6 +8,7 @@ body {
     padding-right: 0 !important;
     padding-top: 5.2rem;
     overflow-x: hidden;
+    overflow-y : hidden;
 
     /* ios padding */
     @supports (padding-top: max(0px)) {
@@ -25,8 +26,4 @@ a.text-success:hover {
     -webkit-mask: url(./assets/ninja.svg) no-repeat center;
     mask: url(./assets/ninja.svg) no-repeat center;
     background-color: #007bff;
-}
-
-::-webkit-scrollbar {
-    display: none;
 }

@@ -24,6 +24,7 @@ function createWindow () {
     title: 'naniviro',
     show: false,
     frame: false,
+    fullscreen: true,
     backgroundColor: '#eee',
     webPreferences: {
       experimentalFeatures: true,
