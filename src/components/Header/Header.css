@@ -8,3 +8,7 @@
         padding-top: max(0.5rem, env(safe-area-inset-top));
     }
 }
+.container {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
