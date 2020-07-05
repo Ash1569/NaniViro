@@ -1,14 +1,7 @@
 # naniviro
-What's Crunchyroll?
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-
-## Images
-![Dashboard](https://i.imgur.com/AhcLPOn.png)
-![Queue](https://i.imgur.com/b9anAaK.png)
-![Series](https://i.imgur.com/jXjccP3.png)
-![Video](https://i.imgur.com/kad1azD.png)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec611cc6-b769-4569-9bc7-75ca7e4bb470/deploy-status)](https://app.netlify.com/sites/naniviro/deploys)
 
 ## Features
 - Fast, modern, and responsive interface
