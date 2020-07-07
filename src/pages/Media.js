@@ -95,6 +95,7 @@ class Media extends Component {
         this.setState({
           streamData: video.data.data
         })
+        console.log(video.data.data)
       } else {
         this.setState({ error: 'This is not available.' })
       }
