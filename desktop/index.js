@@ -23,8 +23,8 @@ function createWindow () {
     icon: path.join(__dirname, 'build', 'icon.ico'),
     title: 'naniviro',
     show: false,
-    frame: false,
-    fullscreen: true,
+    //frame: false,
+    //fullscreen: true,
     backgroundColor: '#eee',
     webPreferences: {
       experimentalFeatures: true,
