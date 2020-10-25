@@ -32,9 +32,9 @@ yarn build
 Install what is in the `dist` folder.
 
 ## Deployment
-This is meant to be deployed on Netlify, to take advantage of their proxy feature and functions. A public version is available online, [here](https://nani.ninja/).
+This is meant to be deployed on Netlify, to take advantage of their proxy feature and functions. A public version is available online, [here](https://naniviro.netlify.app/).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/destruc7i0n/nani)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=/Ash1569/NaniViro)
 
 ## License
 MIT
