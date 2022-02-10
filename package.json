@@ -15,7 +15,7 @@
     "localforage": "^1.7.3",
     "lodash": "^4.17.15",
     "moment": "^2.25.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "popura": "^1.2.5",
     "qs": "^6.9.4",
     "react": "^16.13.1",
